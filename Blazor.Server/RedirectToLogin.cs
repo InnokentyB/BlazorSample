@@ -10,6 +10,9 @@ namespace Blazor.Server
         protected override void OnInitialized()
         {
             NavigationManager.NavigateTo("Identity/Account/Login", true);
+            int x = 1;
+            int y = 1;
+            int a = x+y;
         }
     }
 }
